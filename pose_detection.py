@@ -49,9 +49,7 @@ def main(
 
     # Annotators
     annotation_sink = AnnotationSink(
-        source_info=source_info,
-        trace=True,
-        vertex_label=True
+        source_info=source_info
     )
 
     # Start video detection processing
